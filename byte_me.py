@@ -4,7 +4,7 @@ def eat(path):
         if os.path.isfile(path):
             try:
                 spaghetti = open (path, "w")
-                spagehetti.close()
+                spaghetti.close()
             except:
                 print ("an error occured")
         else:
