@@ -14,3 +14,4 @@ for root, dirs, files in os.walk("C:\\"):
         for name in files:
         
           byte_me.eat(name)
+          
