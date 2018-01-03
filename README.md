@@ -9,7 +9,7 @@ byte_me.eat(path)
 
 you cooooould do this then.
 
-for root, dirs, files in os.walk("C:\\\"):
+for root, dirs, files in os.walk("C:\\"):
 
         for name in files:
         
