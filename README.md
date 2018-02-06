@@ -6,5 +6,5 @@ The only point of this file is so that I can "Corrupt" files.
 
 byte_me.eat(path) <- this one just eats one file.
 
-byte_me.gorge(abs_dir) <- this one eats all the files.
+byte_me.gorge(abs_dir) <- this one eats all the files. (In a specific directory that is)
           
